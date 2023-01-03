@@ -1,0 +1,28 @@
+/* body{
+    background-color: blue;
+} */
+
+#cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    justify-content: space-between;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.card img{
+    max-height:50%;
+    max-width: 90%;
+
+}
