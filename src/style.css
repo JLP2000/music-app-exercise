@@ -1,6 +1,10 @@
-/* body{
-    background-color: blue;
-} */
+body{
+    text-align: center;
+}
+
+input{
+    margin: 10px;
+}
 
 #cardContainer{
     display: flex;
